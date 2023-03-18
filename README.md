@@ -24,5 +24,3 @@ yarn dev
 ```
 yarn build
 ```
-
-from [Shakuro](https://shakuro.com) and [Denis Kratos](mailto:daniellotoskratos@gmail.com) with ❤️
