@@ -148,14 +148,32 @@ function showResult(){
     quiz_box.classList.remove("activeQuiz"); //hide quiz box
     result_box.classList.add("activeResult"); //show result box
     const scoreText = result_box.querySelector(".score_text");
-    if (userScore == 10){ // if user scored 10
+    if (userScore === questions.length){ // if user scored more than 3
         //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>and congrats! 🎉, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>WOW! YOU GOT ALL THE QUESTIONS RIGHT! Enjoy your QR code for a free pad :)</span>';
+        scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
+
+        // create a new button element
+        const button = document.createElement("button");
+        button.innerHTML = "Claim your Pad"; // set the text of the button
+        button.addEventListener("click", function() {
+            window.location.href = "qrcode.html";
+        });
+
+        // append the button to the result box
+        result_box.appendChild(button);
+    }
+    else if (userScore > 3){ // if user scored more than 3
+        //creating a new span tag and passing the user score number and total question number
+        let scoreTag = '<span>and congrats! You got '+ userScore +' out of '+ questions.length +'. Get a perfect score for a free pad!</span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
-
-    else{ // if user scored less than 10
-        let scoreTag = '<span> Try again for 10/10! </span>';
+    else if(userScore > 1){ // if user scored more than 1
+        let scoreTag = '<span>and nice 😎, You got '+ userScore +' out of '+ questions.length +'. Get a perfect score for a free pad!</span>';
+        scoreText.innerHTML = scoreTag;
+    }
+    else{ // if user scored less than 1
+        let scoreTag = '<span>and sorry 😐, You got only '+ userScore +' out of '+ questions.length +'. Get a perfect score for a free pad!</span>';
         scoreText.innerHTML = scoreTag;
     }
 }
