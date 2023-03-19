@@ -1,5 +1,7 @@
 body {
     background-image: url("outside.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #DAA463;
     padding-top: 100px;
 }
