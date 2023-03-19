@@ -1,7 +1,7 @@
 body {
     background-image: url(background.jpg); background-size: cover;
     background-color: #DAA463;
-    padding-top: 100px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -14,7 +14,7 @@ body {
 
 h1 {
     color: #3A3A50;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     margin-bottom: 40px;
     margin-top: 140px;
@@ -56,7 +56,7 @@ button:active {
 
 p {
     color: #16161e;
-    margin: 50px;
-    margin-top: 50px;
+    margin: 20px;
+    margin-top: 20px;
     font-size: 25px;
 }
