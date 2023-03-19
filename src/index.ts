@@ -7,10 +7,10 @@ type GameConfigExtended = Types.Core.GameConfig & {
 };
 
 export const gameConfig: GameConfigExtended = {
-  title: 'Phaser game tutorial',
+  title: 'Menstrual Maze',
   type: WEBGL,
   parent: 'game',
-  backgroundColor: '#351f1b',
+  backgroundColor: '#18216D',
   scale: {
     mode: Scale.ScaleModes.NONE,
     width: window.innerWidth,
@@ -55,4 +55,8 @@ window.sizeChanged = () => {
 
 window.onresize = () => window.sizeChanged();
 
-window.game = new Game(gameConfig);
+//window.game = new Game(gameConfig);
+
+window.onload = () => {
+  var game = new Game(config);
+};
