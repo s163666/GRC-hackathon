@@ -58,7 +58,7 @@ let questions = [
 
 {
   numb: 7,
-  question: "In 2020, In 2018, U.S. federal prisons made menstrual products free.",
+  question: "In 2018, U.S. federal prisons made menstrual products free.",
   answer: "True",
   options: [
     "True",
