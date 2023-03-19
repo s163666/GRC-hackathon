@@ -11,6 +11,7 @@ body {
 }
 
 h1 {
+    color: #3A3A50;
     font-size: 80px;
     text-align: center;
     margin-bottom: 40px;
@@ -31,6 +32,7 @@ h1 {
 }
 
 button {
+    color:#3A3A50;
     background-color: #D0BE9C;
     border: 4px solid #B5754D;
     padding: 15px 32px;
