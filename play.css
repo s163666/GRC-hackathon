@@ -1,5 +1,5 @@
 body {
-    background-image:url("market.png");
+    background-image:url("market.png"); background-size: cover;
     background-color: #DAA463;
     padding-top: 100px;
 }
