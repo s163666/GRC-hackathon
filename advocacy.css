@@ -1,4 +1,5 @@
 body {
+    background-image: url(background.jpg); background-size: cover;
     background-color: #DAA463;
     padding-top: 100px;
     text-align: center;
