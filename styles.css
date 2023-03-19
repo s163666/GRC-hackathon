@@ -3,6 +3,9 @@ body {
     background-color: #DAA463;
     padding-top: 100px;
 }
+head{
+    background-image: "menstrualmaze.jpg";
+}
 
 * {
     text-decoration: none;
