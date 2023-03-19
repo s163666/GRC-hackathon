@@ -49,3 +49,10 @@ button:active {
 .menu_content {
     text-align: center;
 }
+
+p {
+    color: #3A3A50;
+    margin: 100px;
+    margin-top: 20px;
+    font-size: 30px;
+}
