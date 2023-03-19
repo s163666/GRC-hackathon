@@ -1,0 +1,61 @@
+body {
+    background-image: url("outside.png");
+    background-color: #DAA463;
+    padding-top: 100px;
+}
+
+* {
+    text-decoration: none;
+    color: #6B5052;
+    font-family: 'Press Start 2P', cursive;
+    color: inherit;
+}
+
+h1 {
+    color: #3A3A50;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 140px;
+}
+
+.menu {
+    font-family: 'Press Start 2P', cursive;
+    color: inherit;
+    font-size: 20px;
+    margin-left: 10vh;
+    
+}
+
+.center {
+    margin-top: 180px;
+    height: 100%;
+}
+
+button {
+    color:#3A3A50;
+    background-color: #D0BE9C;
+    border: 4px solid #B5754D;
+    padding: 15px 32px;
+    border-radius: 30px;
+    box-shadow: 0 9px #3A3A50;
+    margin: 10px;
+    display: inline-block;
+    font-size: 24px;
+}
+
+button:active {
+    transform: translateY(4px);
+    box-shadow: 0 5px #3A3A50;
+}
+
+.menu_content {
+    text-align: center;
+}
+
+p {
+    color: #3A3A50;
+    margin: 100px;
+    margin-top: 20px;
+    font-size: 30px;
+}
