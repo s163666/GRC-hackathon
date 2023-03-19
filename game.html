@@ -15,6 +15,20 @@
       margin: 0;
       padding: 0;
     }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: relative;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   </style>
 </head>
 
@@ -23,10 +37,14 @@
       <div class="menu_content">
           <button><a href="index.html">back</a></button>
           <button><a href="play.html">play</a></button>
-          <img src="src/assets/dialogue.png" alt="Text Box">
-          <br><br> <p>Hey!</p>
       </div>
   <div>
+    
+  <div class="container">
+      <img src="src/assets/dialogue.png" alt="Text Box">
+      <div class="centered">Hey! Let me teach you the rules!</div>
+  </div>
+
 
 </body>
 
