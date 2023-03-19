@@ -17,6 +17,9 @@ gameScene.preload = function() {
   };
   // executed once, after assets were loaded
   gameScene.create = function() {
-     // background
-     this.add.sprite(0, 0, 'background');
+    // background
+    this.add.sprite(0, 0, 'background');
+    // change origin to the top-left of the sprite
+    bg.setOrigin(0,0);
+     
   }
