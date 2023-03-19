@@ -1,5 +1,6 @@
 body {
     background-color: #DAA463;
+    padding-top: 100px;
 }
 
 * {
@@ -11,6 +12,9 @@ body {
 
 h1 {
     font-size: 80px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 140px;
 }
 
 .menu {
@@ -18,23 +22,30 @@ h1 {
     color: inherit;
     font-size: 20px;
     margin-left: 10vh;
+    
 }
 
 .center {
+    margin-top: 180px;
     height: 100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
 }
 
 button {
     background-color: #D0BE9C;
-    border: #B5754D 6px;
+    border: 4px solid #B5754D;
     padding: 15px 32px;
     border-radius: 30px;
     box-shadow: 0 9px #3A3A50;
+    margin: 10px;
+    display: inline-block;
+    font-size: 24px;
 }
 
 button:active {
     transform: translateY(4px);
-  }
+    box-shadow: 0 5px #3A3A50;
+}
+
+.menu_content {
+    text-align: center;
+}
